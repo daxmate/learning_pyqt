@@ -24,7 +24,7 @@ class SignalAndSlot(QWidget):
     def init_ui(self):
         """初始化UI"""
         self.setWindowTitle("信号与槽")
-        self.resize(800, 600)
+        self.resize(300, 200)
         center = self.screen().availableGeometry().center()
         self.geometry().moveCenter(center)
 
